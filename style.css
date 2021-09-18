@@ -34,7 +34,6 @@ body{
 
 .link-primary{
     background-color: var(--primary-color);
-    color: white;
 }
 
 .link-secondary{
@@ -49,6 +48,7 @@ body{
 .list-inline{
     display: inline;
     padding-right: 2rem;
+    color: white;
 }
 
 .navigation{
@@ -111,3 +111,8 @@ header{
     margin-top: 3rem;
 }
 
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:white;
+    text-decoration:none; 
+    cursor: crosshair;
+}
