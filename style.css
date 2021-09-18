@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container{
@@ -48,6 +49,7 @@ body{
     background-color: var(--primary-color);
     color: white;
     padding: 0.5rem 0 0.5rem 0;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .list-move-right{
@@ -56,7 +58,7 @@ body{
 
 .brand{
     font: bold;
-}
+ }
 
 .navigation .link{
     color: white;
@@ -65,13 +67,36 @@ body{
 
 header{
     text-align: center;
+    padding-top: 2rem;
 }
 
-img{
+.hero-image{
     max-width: 350px;
 }
 
+.hero-heading{
+    color: var(--dark-gray);
+}
 
+.color-invert{
+    color: var(--primary-color);
+}
 
+section{
+    text-align: center;
+    padding: 2rem;
+    text-align: left;
+}
 
+.ow{
+    background-color: var(--off-white);
+}
+
+.footer-color{
+    background-color: var(--primary-color);
+    border-top-right-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem 0 0.5rem 0;
+    text-align: center;
+}
 
