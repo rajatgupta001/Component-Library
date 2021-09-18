@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Rajat's component library</h1>
-    <p>This is the component library for HTML and CSS, that I am making with the help of neogcamp.</p>
+    <p>This           is the component library for HTML and CSS, that I am making with the help of neogcamp.</p>
     <hr>
 
     <h2>@typography</h2>
@@ -21,32 +22,37 @@
 
     <hr>
     <h2>@container</h2>
-    <h3>fluid container</h3>
-    <p>This is a fluid container and it will go till end of the page.</p>
-    <h3>center container</h3>
-    <p>This is a center container and it will go till the specified width.</p>
+    <div class="container">
+        <h3>fluid container</h3>
+        <p>This is a fluid container and it will go till end of the page.</p>
+    </div>
+    <div class="container-center">
+        <h3>center container</h3>
+        <p>This is a center container and it will go till the specified width.</p>
+    </div>
 
     <hr>
-    <h2>@links</h2><a href="www.google.com">primary link</a> <a href="www.google.com">secondary link</a>
+    <h2>@links</h2><a class = "link link-primary" href="www.google.com">primary link</a> <a class = "link link-secondary" href="www.google.com">secondary
+        link</a>
 
     <hr>
     <h2>@lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <ul class = "list-remove-dots">
         <li>item1</li>
         <li>item2</li>
         <li>item3</li>
     </ul>
 
     <h3>unordered inline list</h3>
-    <ul>
-        <li>inline item1</li>
-        <li>inline item2</li>
-        <li>inline item3</li>
+    <ul class = "list-remove-dots">
+        <li class = "list-inline">inline item1        </li>
+        <li class = "list-inline">inline item2        </li>
+        <li class = "list-inline">inline item3</li>
     </ul>
 
     <h3>reverse ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>bread</li>
         <li>butter</li>
@@ -55,25 +61,33 @@
 
     <nav>
         <h2>nav</h2>
-        <div>I am Brand</div>
-        <ul>
-            <li><a href = "www.google.com">home</a></li>
-            <li><a href = "www.google.com">products</a></li>
-            <li><a href = "www.google.com">about</a></li>
-        </ul>
+        <div class = "container navigation">
+            <strong>I am Brand</strong>
+            <ul class = "list-remove-dots list-move-right">
+                <li class = "list-inline"><a class = "link" href="www.google.com">home</a></li>
+                <li class = "list-inline"><a class = "link" href="www.google.com">products</a></li>
+                <li class = "list-inline"><a class = "link" href="www.google.com">about</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
         <img src="image.svg">
-        <h1>heading inside header</h1>
+        <h1>Rajat the web developer</h1>
     </header>
 
     <hr>
 
     <h2>@section</h2>
 
-    <section><h3>white section</h3><p>This is the white section</p></section>
-    <section><h3>Off-white section</h3><p>This is the off-white section</p></section>
+    <section>
+        <h1>white section</h1>
+        <p>This is the white section</p>
+    </section>
+    <section>
+        <h1>Off-white section</h1>
+        <p>This is the off-white section</p>
+    </section>
     <hr>
 
 
