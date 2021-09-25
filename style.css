@@ -199,6 +199,9 @@ hr {
   }
 
   #img-chat{
-    /*display: block;*/
-    max-width:5rem;
-  }
+      display: block;
+      margin-left: 5rem;
+      max-width: 20px;
+    }
+    
+  
