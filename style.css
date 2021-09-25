@@ -111,6 +111,7 @@ header{
     margin-top: 3rem;
 }
 
+/** I do not know how this worked**/
 a, a:link, a:visited, a:focus, a:hover, a:active{
     color:white;
     text-decoration:none; 
