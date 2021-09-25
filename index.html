@@ -1,67 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home || Rajat Gupta</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <nav>
-        <div class = "container navigation">
-            <strong>Rajat Gupta</strong>
-            <ul class = "list-remove-dots list-move-right">
-                <li class = "list-inline"><a class = "link" href="/"><strong>home</strong></a></li>
-                <li class = "list-inline"><a class = "link" href="/projects.html">projects</a></li>
-                <li class = "list-inline"><a class = "link" href="/blogs.html">blogs</a></li>
-            </ul>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home | Rajat Gupta</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand"><a href="/">Rajat Gupta</a></div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/lib/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/lib/blogs.html">blogs</a>
+        </li>
+      </ul>
     </nav>
 
-    <header>
-        <img class = "hero-image" src="image.svg">
-        <h1 class = hero-heading>Rajat the <span class = "color-invert">web developer</span></h1>
+    <header class="hero">
+      <img class="hero-img" src="image.svg" />
+      <h1 class="hero-heading">
+        Rajat Gupta<span class="heading-inverted"> the web developer</span>
+      </h1>
     </header>
 
-    <section class = "ow">
-        <div class = "sec">
+    <section class="section ow">
+      <div class="container container-center">
         <h1>technologies</h1>
-        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</p>
-        </div>
+        <p>
+          I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and
+          Web Hosting
+        </p>
+      </div>
     </section>
 
-    <section class = "sec">
+    <section class="section">
+      <div class="container container-center">
         <h1>projects</h1>
-        <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online
+        </p>
+        <a class="link link-primary" href="/projects.html">See Projects</a>
+      </div>
     </section>
 
-    <div class = "center">
-    <a class = "link link-primary" href="www.google.com">see projects</a>
-    </div>
-
-    <section class = "ow">
-        <div class = "sec">
+    <section class="section ow">
+      <div class="container container-center">
         <h1>blogs</h1>
-        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</p>
-        </div>
+        <p>
+          I am also working on some technical and non techincal blogs. I like to
+          document my journey of learning.
+        </p>
+        <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+      </div>
     </section>
-    <div class = "center">
-        <a class = "link link-primary" href="www.google.com">see blogs</a>
-        </div>
 
-
-    <footer>
-        <div class = "footer-color container">
-            <strong>social media presence</strong>
-            <ul class = "list-remove-dots">
-                <li class = "list-inline"><a href = "https://github.com/rajatgupta001">github</a></li>
-                <li class = "list-inline"><a href = "https://twitter.com/rajat_gupta01">twitter</li>
-                <li class = "list-inline"><a href = "https://linkedin.com/in/rajatgupta4/">linkedin</a></li>
-            </ul>
-        </div>
+    <footer class="footer">
+      <div class="footer-header">social media presence</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/neogcamp/"> github </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/neogcamp"> twitter </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/company/neog-camp/">
+            linkedin
+          </a>
+        </li>
+      </ul>
     </footer>
-
-</body>
+  </body>
 </html>
