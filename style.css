@@ -197,9 +197,3 @@ hr {
   .link-primary {
     display: block;
   }
-
-  #img-chat{
-      display: inline-block;
-      margin: auto;
-      max-width: 30%;
-    }
