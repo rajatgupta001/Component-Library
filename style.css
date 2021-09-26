@@ -201,6 +201,5 @@ hr {
   #img-chat{
       display: inline-block;
       margin: auto;
+      max-width: 30%;
     }
-    
-  
